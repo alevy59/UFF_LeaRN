@@ -1,0 +1,87 @@
+---
+title: "Introdução a Análise de Dados"
+author: "Ariel Levy"
+date: "9/17/2017"
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
+  slidy_presentation: default
+---
+```{r setup, include=T}
+knitr::opts_chunk$set(fig.width=5, fig.height=3, fig.path='Figs/',
+      echo=TRUE, warning=FALSE, message=FALSE)
+```
+---
+
+![Bibliografia](Livro_capa.png)
+
+
+---
+
+![Compreender e programar](R4DS_Understand.png) 
+
+Vamos aprender:
+1. visualizar
+2. comunicar
+3. organizar
+4. importar
+5. modelar
+
+# Primeiros passos:
+
+[Baixar e instalar o R](https://www.r-project.org/alt-home/)
+
+[Baixar e instalar o RStudio](http://www.rstudio.com/download)
+
+---
+
+# Comunicar
+
+Até aqui você aprendeu a utilizar o R para gráfcos com ggplot2
+
+Agora vamos juntar prosa, código e resultados.
+
+Ideal para notas de aula, pesquisa e mesmo para outras atividades de comunicação.
+
+---
+
+#R Markdown
+
+Multiplos formatos de documentos podem ser produzidos com R Markdown:
+pdf; word, qpresentações de slides e mesmo html.
+
+Utilização do R Markdown
+
+1. Comunicação para gestores que não se interessam nos códigos apenas nos resultados.
+
+2. Para colaboração com outros cientistas de dados que desejam ambos, códigos e resultados.
+
+3. Como um caderno de notas, onde fazer pesquisas permitem anotações pessoais e documentar os passos.
+
+---
+
+Infelizmente você não vai usar o ? com o R Markdown. Em vez disso o RStudio preparou um guia de referências
+
+[clique aqui para o guia](http://rstudio.com/cheatsheets)
+
+![Figure 3 - Felicidade ](pinto-no-lixo2.jpg)
+---
+# O básico
+
+Quando abres um documento .rmd 
+
+'--- 
+title: "ggplot2"
+date: 2017-09-19
+output: html
+'---
+
+
+Pronto podes iniciar a inserir seu texto.
+
+Usando o guia fica muito fácil. 
+
+A título de exercício experimente responder todos os exercícios num rmd, inclua também os enunciados em itálicos e o número das questões em negrito. Dê destaque a cada seção.
+
+É isso galera ao trabalho postem na tarefa do schoology.
+
